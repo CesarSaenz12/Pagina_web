@@ -1,0 +1,141 @@
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #e8f4f8;
+        }     
+        header { 
+            padding: 40px 20px 20px; 
+            text-align: center; 
+            background: linear-gradient(135deg, #a8d5e2 0%, #b8e0ed 100%);
+        }    
+        header h1 {
+            font-size: 2.5em;
+            margin: 0 0 10px 0;
+            color: #2c5f7a;
+            font-weight: bold;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+        }    
+        header p {
+            font-style: italic;
+            color: #4a7d96;
+            font-size: 1.1em;
+            margin: 0;
+        }
+        section { 
+            padding: 40px 20px; 
+            text-align: center; 
+            background: linear-gradient(to bottom, #f0f9fc 0%, #ddeef5 100%);
+            margin: 0;
+        }   
+        section h2 {
+            font-size: 2em;
+            color: #2c5f7a;
+            margin: 0 0 20px 0;
+            font-weight: bold;
+        }  
+        section p {
+            font-size: 1.1em;
+            color: #5a8ba3;
+            margin: 0;
+            max-width: 600px;
+            margin: 0 auto;
+        }  
+        .actividades { 
+            display: flex; 
+            justify-content: center; 
+            gap: 80px; 
+            margin: 40px 0 0 0; 
+            flex-wrap: wrap;
+        } 
+        .actividad {
+            text-align: center;
+            background-color: rgba(255,255,255,0.6);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(168,213,226,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }   
+        .actividad:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(168,213,226,0.4);
+        }
+        .actividad img { 
+            width: 120px; 
+            height: 120px; 
+            border-radius: 15px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            border: 3px solid #c7e3ed;
+        } 
+        .actividad div {
+            font-size: 1.1em;
+            color: #2c5f7a;
+            font-weight: 500;
+        } 
+        .comentario-button {
+            background: linear-gradient(135deg, #4a7d96 0%, #2c5f7a 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 12px rgba(44,95,122,0.3);
+        }
+        .comentario-button:hover {
+            background: linear-gradient(135deg, #5a8ba3 0%, #3b6f8a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(44,95,122,0.4);
+        }
+        footer { 
+            padding: 40px 20px; 
+            text-align: center; 
+            background: linear-gradient(135deg, #4a7d96 0%, #2c5f7a 100%);
+            color: white;
+        } 
+        footer h3 {
+            font-size: 1.5em;
+            margin: 0 0 30px 0;
+            color: #e8f4f8;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .redes {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .red-social {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #6ba3c2 0%, #5a8ba3 100%);
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .red-social:hover {
+            background: linear-gradient(135deg, #7db3d1 0%, #6ba3c2 100%);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(44,95,122,0.3);
+        }
+        .red-social img {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .red-social span {
+            font-size: 0.9em;
+        }
+        hr { 
+            margin: 0; 
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #a8d5e2, transparent);
+        }

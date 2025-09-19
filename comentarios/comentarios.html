@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Comentarios</title>
+    <link rel="stylesheet" href="styles/styles_comentarios.css">
+
+</head>
+<body>
+    <div class="header-comentarios">
+        <h1>Deja tu Comentario</h1>
+        <p>Comparte tu opinión con nosotros</p>
+        <button class="boton-minimal" onclick="history.back()">← Atrás</button>
+
+    </div>
+    
+    <div class="section-comentarios">
+        <form>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </p>
+            
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+            
+            <p>
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" placeholder="Escribe tu comentario aquí..."></textarea>
+            </p>
+            
+            <p>
+                <input type="submit" value="Enviar Comentario">
+                <input type="reset" value="Limpiar">
+            </p>
+        </form>
+        
+        <hr>
+        
+        <h2>Comentarios Existentes</h2>
+        
+        <div class="comentario-existente">
+            <h3>Juan Pérez</h3>
+            <p><strong>Email:</strong> juan@email.com</p>
+            <p><strong>Comentario:</strong> Este es un ejemplo de comentario. Me parece muy útil esta página.</p>
+        </div>
+        
+        <div class="comentario-existente">
+            <h3>María González</h3>
+            <p><strong>Email:</strong> maria@email.com</p>
+            <p><strong>Comentario:</strong> Excelente trabajo, muy fácil de usar.</p>
+        </div>
+    </div>
+</body>
+</html>
